@@ -74,6 +74,11 @@ Then, use a VNC Viewer program to connect to Raspberry Pi. Like SSH, you need to
 
 Note: Since the VNC connection provides low quality graphics, your photo will look worse on the display with this method.
 
+### In-memory Processing of the Image
+In addition to saving images to a file, we can also use them in-memory for variety of purposes such as real-time image processing. Here is the relevant section in **picamera** documentation;
+
+[picamera Documentation](https://picamera.readthedocs.io/en/release-1.13/recipes1.html#capturing-to-a-pil-image)
+
 ### Useful URLs
 [Raspberry Pi Camera](https://www.amazon.de/gp/product/B07ZZ2K7WP/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 
